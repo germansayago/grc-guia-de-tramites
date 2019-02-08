@@ -1,0 +1,263 @@
+<!-- layout.njk -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Guías de Trámites</title>
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+
+  
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container pl-2">
+
+    <a class="navbar-brand" href="index.html" id="logo">
+      <img src="images/tramites-logo.svg" alt="logo">
+    </a>
+
+    <form class="p-0 m-0" action="lista.html" method="get" id="form">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Buscar" aria-label="Buscar" aria-describedby="button-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-secondary" type="submit" id="button-addon2">
+            <i class="fas fa-fw fa-lg fa-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+
+    <a href="#" class="btn btn-blue-gob text-white" id="buttonForm">
+      <i class="fas fa-fw fa-search" id="iconSearch"></i>
+      <i class="fas fa-fw fa-times"  id="iconTimes"></i>
+    </a>
+
+  </div>
+</nav>
+
+
+<section class="lista">
+  <div class="container">
+
+    <div class="my-4 pb-2 d-none d-sm-block">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Trámites</li>
+        </ol>
+      </nav>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-md-8 content">
+
+        <div class="result">
+          Se encontraron <span>19</span> resultados para <span>"texto ingresado"</span>
+        </div>
+
+        
+
+        <div class="card mb-3">
+          <a href="./tramite.html">
+            <div class="card-body">
+              <h4 class="card-title mb-1">
+                Excepteur sint occaecat cupidatat non proident - 1
+              </h4>
+              <div class="text-secondary mb-2">Area / Dependencia</div>
+              <p class="card-text text-dark visible-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </a>
+        </div>
+
+        
+
+        <div class="card mb-3">
+          <a href="./tramite.html">
+            <div class="card-body">
+              <h4 class="card-title mb-1">
+                Excepteur sint occaecat cupidatat non proident - 2
+              </h4>
+              <div class="text-secondary mb-2">Area / Dependencia</div>
+              <p class="card-text text-dark visible-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </a>
+        </div>
+
+        
+
+        <div class="card mb-3">
+          <a href="./tramite.html">
+            <div class="card-body">
+              <h4 class="card-title mb-1">
+                Excepteur sint occaecat cupidatat non proident - 3
+              </h4>
+              <div class="text-secondary mb-2">Area / Dependencia</div>
+              <p class="card-text text-dark visible-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </a>
+        </div>
+
+        
+
+        <div class="card mb-3">
+          <a href="./tramite.html">
+            <div class="card-body">
+              <h4 class="card-title mb-1">
+                Excepteur sint occaecat cupidatat non proident - 4
+              </h4>
+              <div class="text-secondary mb-2">Area / Dependencia</div>
+              <p class="card-text text-dark visible-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </a>
+        </div>
+
+        
+
+
+        <div class="mb-5 pt-4">
+          <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+              <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1">
+                  <i class="fas fa-fw fa-lg fa-caret-left"></i>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">
+                  <i class="fas fa-fw fa-lg fa-caret-right"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+      </div>
+      <div class="col-12 col-md-4 mb-5 sidebar">
+
+        <div class="card">
+          <div class="card-body pb-0">
+            <h5 class="card-title">Más Consultados</h5>
+          </div>
+          <ul class="list-group list-group-flush">
+            
+              <li class="list-group-item">
+                <a href="tramite.html">
+                  <div>
+                    Titulo de trámite 1
+                  </div>
+                  <div class="fas fa-fw fa-lg fa-angle-right"></div>
+                </a>
+              </li>
+            
+              <li class="list-group-item">
+                <a href="tramite.html">
+                  <div>
+                    Titulo de trámite 2
+                  </div>
+                  <div class="fas fa-fw fa-lg fa-angle-right"></div>
+                </a>
+              </li>
+            
+              <li class="list-group-item">
+                <a href="tramite.html">
+                  <div>
+                    Titulo de trámite 3
+                  </div>
+                  <div class="fas fa-fw fa-lg fa-angle-right"></div>
+                </a>
+              </li>
+            
+              <li class="list-group-item">
+                <a href="tramite.html">
+                  <div>
+                    Titulo de trámite 4
+                  </div>
+                  <div class="fas fa-fw fa-lg fa-angle-right"></div>
+                </a>
+              </li>
+            
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-body pb-0">
+            <h5 class="card-title">Trámites Sugeridos</h5>
+          </div>
+          <ul class="list-group list-group-flush">
+            
+              <li class="list-group-item">
+                <a href="tramite.html">
+                  <div>
+                    Titulo de trámite 1
+                  </div>
+                  <div class="fas fa-fw fa-lg fa-angle-right"></div>
+                </a>
+              </li>
+            
+              <li class="list-group-item">
+                <a href="tramite.html">
+                  <div>
+                    Titulo de trámite 2
+                  </div>
+                  <div class="fas fa-fw fa-lg fa-angle-right"></div>
+                </a>
+              </li>
+            
+              <li class="list-group-item">
+                <a href="tramite.html">
+                  <div>
+                    Titulo de trámite 3
+                  </div>
+                  <div class="fas fa-fw fa-lg fa-angle-right"></div>
+                </a>
+              </li>
+            
+              <li class="list-group-item">
+                <a href="tramite.html">
+                  <div>
+                    Titulo de trámite 4
+                  </div>
+                  <div class="fas fa-fw fa-lg fa-angle-right"></div>
+                </a>
+              </li>
+            
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <footer>
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+				<a href="http://www.riocuarto.gov.ar/" target="_blank"><img src="images/gobierno-rio-cuarto-logo.svg" alt="" class="img-fluid"></a>
+			</div>
+			<div class="col-12 d-none d-md-block col-md-6 col-lg-8 text-center">
+				Desarrollado por la Sec. Gobierno Abierto y Modernización <br>
+				Gobierno de Río Cuarto
+			</div>
+			<div class="col-6 col-sm-4 col-md-3 col-lg-2">
+				<a href="http://www.riocuarto.gov.ar/" target="_blank"><img src="images/gob-abierto-modernizacion-logo.svg" alt=""  class="img-fluid"></a>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</footer>
+
+
+  <script src="js/main.min.js"></script>
+
+</body>
+</html>

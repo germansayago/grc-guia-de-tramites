@@ -1,0 +1,14 @@
+// lib bootstrap 4.1.1
+@import "bootstrap/bootstrap";
+@import "../css/fontawesome-all.min.css";
+
+// theme
+@import "components/base";
+@import "components/navbar";
+@import "components/footer";
+@import "components/masterhead";
+@import "components/themes";
+@import "components/lista";
+@import "components/tramite";
+
+@import "components/test";
