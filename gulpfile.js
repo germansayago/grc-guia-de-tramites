@@ -47,6 +47,18 @@ gulp.task('nunjucks', function() {
     }));
 });
 
+// images
+gulp.task('images', function() {
+  return gulp.src([src + '/images/*'])
+          .pipe(gulp.dest(dist + '/images/'));
+});
+
+// fonts
+gulp.task('fonts', function() {
+  return gulp.src([src + '/webfonts/*'])
+          .pipe(gulp.dest(dist + '/webfonts/'));
+});
+
 // watch
 gulp.task('watch',['browserSync', 'sass'], function(){
   gulp.watch(src + '/*.html', browserSync.reload);
@@ -81,7 +93,7 @@ gulp.task('default', function (callback) {
 // build produccion
 gulp.task('build', function (callback) {
   runSequence('clean:dist',
-    ['sass', 'useref'],
+    ['sass', 'useref', 'images', 'fonts'],
     callback
   )
 })
