@@ -1,6 +1,2 @@
-<<<<<<< HEAD
-# frontend
+Guía de Trámites
 
-=======
-# grc-guia-de-tramites
->>>>>>> origin/master
